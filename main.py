@@ -8,7 +8,7 @@ load_dotenv()
 SECRET: Final[str] = os.getenv('SMS_SECRET')
 SMS_KEY: Final[str] = os.getenv('SMS_KEY')
 FROM_USER: Final[str] = "sms test"
-TO_USER: Final[str] = "972528512751"
+TO_USER: Final[str] = "972500000000"
 
 def main() -> None:
     client: Client = Client(key=SMS_KEY, secret=SECRET)
